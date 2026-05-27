@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mini Sistema</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+
+      <input type="email" id="email" placeholder="Digite seu email" />
+
+      <input type="password" id="senha" placeholder="Digite sua senha" />
+
+      <button onclick="login()">Entrar</button>
+
+      <p id="resultadoLogin"></p>
+
+      <hr />
+
+      <h1>Contato</h1>
+
+      <input type="text" id="nome" placeholder="Digite seu nome" />
+
+      <input type="email" id="emailContato" placeholder="Digite seu email" />
+
+      <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+
+      <button onclick="enviarMensagem()">Enviar</button>
+
+      <p id="resultadoContato"></p>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
