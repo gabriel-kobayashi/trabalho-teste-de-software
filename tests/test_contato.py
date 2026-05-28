@@ -19,7 +19,7 @@ def test_contato_sucesso():
     driver.find_element(
         By.ID,
         "emailContato"
-    ).send_keys("gabriel@email.com")
+    ).send_keys("gabriel@gmail.com")
 
     driver.find_element(
         By.ID,

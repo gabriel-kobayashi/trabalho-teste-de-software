@@ -9,7 +9,7 @@ function login() {
     return;
   }
 
-  if (email === "admin@email.com" && senha === "123456") {
+  if (email === "admin@gmail.com" && senha === "123123") {
     document.getElementById("resultadoLogin").innerText = "Login realizado";
   } else {
     document.getElementById("resultadoLogin").innerText = "Login inválido";
