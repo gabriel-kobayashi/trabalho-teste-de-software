@@ -4,10 +4,17 @@ def validar_login(email, senha):
         return "Campos obrigatórios"
 
     if (
-        email == "admin@email.com"
+        email == "admin@gmail.com"
         and
-        senha == "123456"
+        senha == "123123"
     ):
         return "Login realizado"
 
     return "Login inválido"
+
+def validar_contato(nome, email, mensagem):
+
+    if nome == "" or email == "" or mensagem == "":
+        return "Preencha todos os campos"
+
+    return "Mensagem enviada"

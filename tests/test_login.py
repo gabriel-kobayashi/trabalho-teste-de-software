@@ -14,12 +14,12 @@ def test_login_sucesso():
     driver.find_element(
         By.ID,
         "email"
-    ).send_keys("admin@email.com")
+    ).send_keys("admin@gmail.com")
 
     driver.find_element(
         By.ID,
         "senha"
-    ).send_keys("123456")
+    ).send_keys("123123")
 
     driver.find_element(
         By.TAG_NAME,
@@ -47,12 +47,12 @@ def test_login_invalido():
     driver.find_element(
         By.ID,
         "email"
-    ).send_keys("teste@email.com")
+    ).send_keys("jose@gmail.com")
 
     driver.find_element(
         By.ID,
         "senha"
-    ).send_keys("111")
+    ).send_keys("123456")
 
     driver.find_element(
         By.TAG_NAME,
