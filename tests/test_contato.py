@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
-CAMINHO = "file:///E:/trabalho-teste-software/app/index.html"
+CAMINHO = "file:///C:/trabalho-teste-de-software/app/index.html"
 
 
 def test_contato_sucesso():

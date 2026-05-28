@@ -1,4 +1,4 @@
-from validacoes import validar_login
+from validacoes import validar_login, validar_contato
 
 
 def test_login_sucesso():
@@ -29,3 +29,25 @@ def test_login_vazio():
     )
 
     assert resultado == "Campos obrigatórios"
+
+
+def test_contato_sucesso():
+
+    resultado = validar_contato(
+        "Gabriel",
+        "gabriel@email.com",
+        "Olá"
+    )
+
+    assert resultado == "Mensagem enviada"
+
+
+def test_contato_vazio():
+
+    resultado = validar_contato(
+        "",
+        "",
+        ""
+    )
+
+    assert resultado == "Preencha todos os campos"
